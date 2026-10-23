@@ -1,0 +1,13 @@
+best config: combo_A_3L_bn_drop_adamw_cos
+{'hidden_sizes': [512, 256, 128], 'activation': 'relu', 'loss_name': 'cross_entropy', 'optimizer_name': 'adamw', 'learning_rate': 0.001, 'max_epoch': 40, 'batch_size': 128, 'dropout': 0.2, 'batch_norm': True, 'weight_decay': 0.01, 'lr_schedule': 'cosine'}
+
+accuracy             0.9871
+precision_weighted   0.9871
+recall_weighted      0.9871
+f1_weighted          0.9871
+precision_macro      0.9871
+recall_macro         0.9870
+f1_macro             0.9870
+precision_micro      0.9871
+recall_micro         0.9871
+f1_micro             0.9871
