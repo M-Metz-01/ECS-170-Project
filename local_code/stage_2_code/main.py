@@ -7,8 +7,8 @@ from .Setting_Train_Test_Pre_Partitioned import Setting_Train_Test_Pre_Partition
 from .Evaluate_Metrics import Evaluate_Metrics
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(HERE, '..', 'data', 'stage_2_data') + '/'
-RESULT_DIR = os.path.join(HERE, '..', 'result', 'stage_2_result')
+DATA_DIR = os.path.join(HERE, '..', '..', 'data', 'stage_2_data') + '/'
+RESULT_DIR = os.path.join(HERE, '..', '..', 'result', 'stage_2_result')
 os.makedirs(RESULT_DIR, exist_ok=True)
 
 train_loader = Dataset_Loader('train', '')
