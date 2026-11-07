@@ -1,0 +1,13 @@
+best config: depth_2blocks_16_32
+{'max_epoch': 30, 'conv_channels': [16, 32]}
+
+accuracy             0.9750
+precision_weighted   0.9625
+recall_weighted      0.9750
+f1_weighted          0.9667
+precision_macro      0.9625
+recall_macro         0.9750
+f1_macro             0.9667
+precision_micro      0.9750
+recall_micro         0.9750
+f1_micro             0.9750

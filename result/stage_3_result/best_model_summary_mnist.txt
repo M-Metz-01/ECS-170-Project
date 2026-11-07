@@ -1,0 +1,13 @@
+best config: loss_label_smoothing
+{'max_epoch': 5, 'loss_name': 'label_smoothing'}
+
+accuracy             0.9925
+precision_weighted   0.9925
+recall_weighted      0.9925
+f1_weighted          0.9925
+precision_macro      0.9925
+recall_macro         0.9925
+f1_macro             0.9925
+precision_micro      0.9925
+recall_micro         0.9925
+f1_micro             0.9925
