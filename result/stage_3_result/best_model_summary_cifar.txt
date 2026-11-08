@@ -1,0 +1,13 @@
+best config: pool_avg
+{'max_epoch': 5, 'pooling': 'avg'}
+
+accuracy             0.8258
+precision_weighted   0.8243
+recall_weighted      0.8258
+f1_weighted          0.8248
+precision_macro      0.8243
+recall_macro         0.8258
+f1_macro             0.8248
+precision_micro      0.8258
+recall_micro         0.8258
+f1_micro             0.8258
